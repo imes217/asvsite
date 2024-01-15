@@ -1,0 +1,44 @@
+{
+     "name": "joerge/asvsite",
+     "type": "typo3-cms-extension",
+     "description": "Example site package from the site package tutorial",
+     "authors": [
+             {
+                     "name": "Jörg Ehrsam",
+                     "role": "Developer",
+                     "homepage": ""
+             },
+             {
+                     "name": "Dirk Viehmann",
+                     "role": "Contributor",
+                     "homepage": ""
+             }
+     ],
+     "require": {
+             "typo3/cms-core": "^12.0.0|dev-main",
+             "typo3/cms-fluid-styled-content": "^12.0.0|dev-main"
+     },
+     "homepage": "",
+     "license": "MIT",
+     "keywords": [
+             "typo3",
+             "asvsite",
+             "documentation"
+     ],
+     "support": {
+             "issues": ""
+     },
+     "autoload": {
+             "psr-4": {
+                     "JoergE\\SitePackage\\": "Classes/"
+             }
+     },
+     "extra": {
+             "typo3/cms": {
+                     "extension-key": "asvsite"
+             },
+             "branch-alias": {
+                     "dev-master": "12.0.x-dev"
+             }
+     }
+}
